@@ -149,7 +149,6 @@
 		branch.init($('meta[name="branch_key"]').attr('content'), function(err, data) {
 			// Avoid XSS by HTML escaping the data for display
 			$('#info').text(JSON.stringify(data));
-            alert(JSON.stringify(data));
 		});
 	</script>
 	<script type="text/javascript">
